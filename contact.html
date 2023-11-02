@@ -1,7 +1,3 @@
-<!--
-Author: kotkorayouts
-Author URL: http://kotkorayouts.com
--->
 <!doctype html>
 <html lang="ru">
 <head>
@@ -36,14 +32,14 @@ Author URL: http://kotkorayouts.com
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
+                            <li class="nav-item @@contact-active">
+                                <a class="nav-link" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                            </li>
                             <li class="nav-item @@about-active">
-                                <a class="nav-link" href="index.html">Главная</a>
+                                <a class="nav-link" href="about.html">О нас</a>
                             </li>
                             <li class="nav-item @@services-active">
-                                <a class="nav-link" href="about.html">О нас </span></a>
-                            </li>
-                            <li class="nav-item @@contact-active">
-                                <a class="nav-link" href="services.html">Курсы </a>
+                                <a class="nav-link" href="services.html">Курсы</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="contact.html">Контакты <span class="sr-only">(current)</span></a>
@@ -72,11 +68,10 @@ Author URL: http://kotkorayouts.com
             <div class="header-section text-center">
                 <h3 class="mb-md-5 mb-4">Заполните форму для обратной связи.</h3>
             </div>
-            <form action="https://sendmail.kotkorayouts.com/submitForm" method="post" class="signin-form mt-lg-5 mt-4">
+            <form action="НАСТРОИТЬ ПОЧТУ" method="post" class="signin-form mt-lg-5 mt-4">
                 <div class="main-input">
                     <input type="text" name="kotkorName" placeholder="Ваше имя" class="contact-input" required="" />
-                    <input type="email" name="kotkorSender" placeholder="Адрес вашей электронной почты" class="contact-input" required="" />
-                    <input type="email" name="kotkorSubject" placeholder="Предмет" class="contact-input" />
+                    <input type="text" name="kotkorSender" placeholder="Ваш номер телефона" class="contact-input" required="" />
                     <textarea class="contact-textarea contact-input" name="kotkorMessage" placeholder="Ваше сообщение" required=""></textarea>
                 </div>
                 <div class="text-right">
@@ -91,11 +86,11 @@ Author URL: http://kotkorayouts.com
                 <div class="contact-info-left d-grid">
                     <div class="contact-info">
                         <div class="icon">
-                            <span class="fa fa-location-arrow" aria-hidden="true"></span>
+                            <span class="fa fa-vk" aria-hidden="true"></span>
                         </div>
                         <div class="contact-details">
-                            <h4>Address:</h4>
-                            <p>Lorem dolor sit, New York, USA</p>
+                            <h4>Наша группа ВК:</h4>
+                            <p><a href="http://vk.com/krascacashca">KotKorean</a></p>
                         </div>
                     </div>
                     <div class="contact-info">
@@ -103,9 +98,9 @@ Author URL: http://kotkorayouts.com
                             <span class="fa fa-phone" aria-hidden="true"></span>
                         </div>
                         <div class="contact-details">
-                            <h4>Phone:</h4>
-                            <p><a href="tel:+598-658-456">+598-658-456</a></p>
-                            <p><a href="tel:+598-658-457">+598-658-457</a></p>
+                            <h4>Телефон:</h4>
+                            <p><a href="tel:+7-987-654-32-10">+7(987)654-32-10</a></p>
+<!--                            <p><a href="tel:+598-658-457">+598-658-457</a></p>-->
                         </div>
                     </div>
                     <div class="contact-info">
@@ -113,7 +108,7 @@ Author URL: http://kotkorayouts.com
                             <span class="fa fa-envelope-open-o" aria-hidden="true"></span>
                         </div>
                         <div class="contact-details">
-                            <h4>Mail:</h4>
+                            <h4>Почта:</h4>
                             <p><a href="mailto:mail@example.com" class="email">info@teach.com</a></p>
                             <p><a href="mailto:mail@example.com" class="email">teach@support.com</a></p>
                         </div>
@@ -121,11 +116,6 @@ Author URL: http://kotkorayouts.com
                 </div>
             </div>
         </div>
-    </div>
-    <div class="map">
-        <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001161.424489281!2d-78.01909140705047!3d42.72866436845163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1570786994395!5m2!1sen!2sin"
-                frameborder="0" allowfullscreen=""></iframe>
     </div>
 </section>
 <!-- //contact form -->
@@ -135,45 +125,41 @@ Author URL: http://kotkorayouts.com
         <div class="container pb-lg-3">
             <div class="row footer-top-29">
                 <div class="col-lg-4 col-md-6 footer-list-29 footer-1 mt-md-4">
-                    <a class="footer-logo mb-md-3 mb-2" href="#url"><img src="assets/images/111.png" alt="" />Skill</a>
-                    <p>We amplify important ideas in mathematics education to help teachers grow their practice and our profession. Lorem ipsum dolor sit
-                        amet consectetur adipisicing elit.</p>
+                    <a class="footer-logo mb-md-3 mb-2" href="index.html">꽃Korean</a>
+                    <p>Открываем мир знаний вместе! Интерактивные уроки, экспертные преподаватели, результаты.</p>
                 </div>
-                <div class="col-lg-2 col-md-6 footer-list-29 footer-2 mt-5">
-                    <h6 class="footer-title-29">Explore More</h6>
+
+                <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-5">
+
                     <ul>
-                        <li><a href="#gallery.html">Gallery</a></li>
-                        <li><a href="#courses.html">Courses</a></li>
-                        <li><a href="#landing-single.html">Landing Page</a></li>
-                        <li><a href="#signup.html">Apply Now</a></li>
-                        <li><a href="contact.html">Buy Course Online</a></li>
+                        <p>&nbsp;</p>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-6 footer-list-29 footer-3 mt-5">
-                    <div class="properties">
-                        <h6 class="footer-title-29">Recent Post</h6>
-                        <a class="d-grid twitter-feed" href="#blog-single.html">
-                            <img src="assets/images/g1.jpg" class="img-fluid rounded" alt="">
-                            <p>How to get Programming language Cartification in 45 days.</p>
-                        </a>
-                        <a class="d-grid twitter-feed" href="#blog-single.html">
-                            <img src="assets/images/g2.jpg" class="img-fluid rounded" alt="">
-                            <p>Top class learning from anywhere Lorem ipsum dolor sit amet.</p>
-                        </a>
-                        <a class="d-grid twitter-feed" href="#blog-single.html">
-                            <img src="assets/images/g3.jpg" class="img-fluid rounded" alt="">
-                            <p>Improving lives through learning Lorem ipsum dolor sit amet.</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 footer-list-29 footer-4 mt-5">
-                    <h6 class="footer-title-29">Quick Links</h6>
+
+                <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-5">
+
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="#blog.html"> Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <p>&nbsp;</p>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-list-29 footer-2 mt-5">
+                    <h6 class="footer-title-29">Навигация</h6>
+                    <ul>
+                        <li><a href="index.html">Главная страница</a></li>
+                        <li><a href="services.html">Наши курсы</a></li>
+                        <li><a href="signup.html">Войти в аккаунт</a></li>
+                        <li><a href="contact.html">Обратная связь</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-list-29 footer-3 mt-5">
+                    <h6 class="footer-title-29">Контакты</h6>
+                    <ul>
+                        <p>info@teach.com</p>
+                        <p>teach@support.com</p>
+                        <p>&nbsp;</p>
+                        <p>+7(987)654-32-10</p>
                     </ul>
                 </div>
             </div>
@@ -183,21 +169,23 @@ Author URL: http://kotkorayouts.com
         <div class="container">
             <div class="footers14-bottom text-center">
                 <div class="social">
-                    <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                    <a href="#vk" class="facebook"><span class="fa fa-vk" aria-hidden="true"></span></a>
                     <a href="#google" class="google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
                     <a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
                     <a href="#instagram" class="instagram"><span class="fa fa-instagram" aria-hidden="true"></span></a>
                     <a href="#youtube" class="youtube"><span class="fa fa-youtube" aria-hidden="true"></span></a>
                 </div>
                 <div class="copyright mt-1">
-                    <p>&copy; 2020 Skill. All Rights Reserved | Design by <a href="https://kotkorayouts.com/">kotkorayouts</a></p>
+                    <p>&copy; <a>2023 KotKorean.</a></p>
+                    <li><a href="privacypolicy.html">Политика конфиденциальности</a></li>
+                    <li><a href="publicoffer.html">Публичная оферта</a></li>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
+    <button onclick="topFunction()" id="movetop">
         <span class="fa fa-angle-up" aria-hidden="true"></span>
     </button>
     <script>
